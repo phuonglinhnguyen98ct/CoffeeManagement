@@ -1,0 +1,10 @@
+C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csprojResolveAssemblyReference.cache
+C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fLogin.resources
+C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.Cache
+C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fMain.resources
