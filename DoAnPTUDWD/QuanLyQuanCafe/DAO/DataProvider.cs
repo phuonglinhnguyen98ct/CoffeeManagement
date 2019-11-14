@@ -10,7 +10,7 @@ namespace QuanLyQuanCafe.DAO
 {
     public class DataProvider
     {
-        private static DataProvider instance;
+        private static DataProvider instance; // Ctrl + R + E
 
         public static DataProvider Instance
         {

@@ -31,22 +31,22 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.đăngXuấtToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.cbCategory = new System.Windows.Forms.ComboBox();
-            this.cbDrink = new System.Windows.Forms.ComboBox();
-            this.numQuantity = new System.Windows.Forms.NumericUpDown();
-            this.btnAddDrink = new System.Windows.Forms.Button();
             this.flpTable = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txtBillDetail = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnAddDrink = new System.Windows.Forms.Button();
+            this.numQuantity = new System.Windows.Forms.NumericUpDown();
+            this.cbDrink = new System.Windows.Forms.ComboBox();
+            this.cbCategory = new System.Windows.Forms.ComboBox();
             this.btnCheckout = new System.Windows.Forms.Button();
             this.numDiscount = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.cbChangeTable = new System.Windows.Forms.ComboBox();
-            this.txtBillDetail = new System.Windows.Forms.TextBox();
+            this.thôngTinTàiKhoảnToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -71,21 +71,16 @@
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
             this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.adminToolStripMenuItem.Text = "Admin";
+            this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
             // 
             // thôngTinTàiKhoảnToolStripMenuItem
             // 
             this.thôngTinTàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.đăngXuấtToolStripMenuItem1,
+            this.thôngTinTàiKhoảnToolStripMenuItem1,
             this.đăngXuấtToolStripMenuItem});
             this.thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
             this.thôngTinTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.thôngTinTàiKhoảnToolStripMenuItem.Text = "Tài khoản";
-            // 
-            // đăngXuấtToolStripMenuItem1
-            // 
-            this.đăngXuấtToolStripMenuItem1.Name = "đăngXuấtToolStripMenuItem1";
-            this.đăngXuấtToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
-            this.đăngXuấtToolStripMenuItem1.Text = "Thông tin tài khoản";
             // 
             // đăngXuấtToolStripMenuItem
             // 
@@ -102,6 +97,13 @@
             this.panel1.Size = new System.Drawing.Size(393, 381);
             this.panel1.TabIndex = 1;
             // 
+            // flpTable
+            // 
+            this.flpTable.Location = new System.Drawing.Point(3, 3);
+            this.flpTable.Name = "flpTable";
+            this.flpTable.Size = new System.Drawing.Size(387, 375);
+            this.flpTable.TabIndex = 0;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.txtBillDetail);
@@ -109,6 +111,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(293, 259);
             this.panel2.TabIndex = 2;
+            // 
+            // txtBillDetail
+            // 
+            this.txtBillDetail.Location = new System.Drawing.Point(4, 4);
+            this.txtBillDetail.Multiline = true;
+            this.txtBillDetail.Name = "txtBillDetail";
+            this.txtBillDetail.ReadOnly = true;
+            this.txtBillDetail.Size = new System.Drawing.Size(286, 252);
+            this.txtBillDetail.TabIndex = 0;
             // 
             // panel3
             // 
@@ -121,21 +132,15 @@
             this.panel3.Size = new System.Drawing.Size(293, 53);
             this.panel3.TabIndex = 3;
             // 
-            // cbCategory
+            // btnAddDrink
             // 
-            this.cbCategory.FormattingEnabled = true;
-            this.cbCategory.Location = new System.Drawing.Point(4, 4);
-            this.cbCategory.Name = "cbCategory";
-            this.cbCategory.Size = new System.Drawing.Size(121, 21);
-            this.cbCategory.TabIndex = 0;
-            // 
-            // cbDrink
-            // 
-            this.cbDrink.FormattingEnabled = true;
-            this.cbDrink.Location = new System.Drawing.Point(4, 29);
-            this.cbDrink.Name = "cbDrink";
-            this.cbDrink.Size = new System.Drawing.Size(121, 21);
-            this.cbDrink.TabIndex = 1;
+            this.btnAddDrink.Location = new System.Drawing.Point(193, 8);
+            this.btnAddDrink.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddDrink.Name = "btnAddDrink";
+            this.btnAddDrink.Size = new System.Drawing.Size(83, 38);
+            this.btnAddDrink.TabIndex = 3;
+            this.btnAddDrink.Text = "Thêm món";
+            this.btnAddDrink.UseVisualStyleBackColor = true;
             // 
             // numQuantity
             // 
@@ -154,22 +159,21 @@
             0,
             0});
             // 
-            // btnAddDrink
+            // cbDrink
             // 
-            this.btnAddDrink.Location = new System.Drawing.Point(193, 8);
-            this.btnAddDrink.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAddDrink.Name = "btnAddDrink";
-            this.btnAddDrink.Size = new System.Drawing.Size(83, 38);
-            this.btnAddDrink.TabIndex = 3;
-            this.btnAddDrink.Text = "Thêm món";
-            this.btnAddDrink.UseVisualStyleBackColor = true;
+            this.cbDrink.FormattingEnabled = true;
+            this.cbDrink.Location = new System.Drawing.Point(4, 29);
+            this.cbDrink.Name = "cbDrink";
+            this.cbDrink.Size = new System.Drawing.Size(121, 21);
+            this.cbDrink.TabIndex = 1;
             // 
-            // flpTable
+            // cbCategory
             // 
-            this.flpTable.Location = new System.Drawing.Point(3, 3);
-            this.flpTable.Name = "flpTable";
-            this.flpTable.Size = new System.Drawing.Size(387, 375);
-            this.flpTable.TabIndex = 0;
+            this.cbCategory.FormattingEnabled = true;
+            this.cbCategory.Location = new System.Drawing.Point(4, 4);
+            this.cbCategory.Name = "cbCategory";
+            this.cbCategory.Size = new System.Drawing.Size(121, 21);
+            this.cbCategory.TabIndex = 0;
             // 
             // btnCheckout
             // 
@@ -214,14 +218,11 @@
             this.cbChangeTable.Size = new System.Drawing.Size(106, 21);
             this.cbChangeTable.TabIndex = 4;
             // 
-            // txtBillDetail
+            // thôngTinTàiKhoảnToolStripMenuItem1
             // 
-            this.txtBillDetail.Location = new System.Drawing.Point(4, 4);
-            this.txtBillDetail.Multiline = true;
-            this.txtBillDetail.Name = "txtBillDetail";
-            this.txtBillDetail.ReadOnly = true;
-            this.txtBillDetail.Size = new System.Drawing.Size(286, 252);
-            this.txtBillDetail.TabIndex = 0;
+            this.thôngTinTàiKhoảnToolStripMenuItem1.Name = "thôngTinTàiKhoảnToolStripMenuItem1";
+            this.thôngTinTàiKhoảnToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
+            this.thôngTinTàiKhoảnToolStripMenuItem1.Text = "Thông tin tài khoản";
             // 
             // fMain
             // 
@@ -258,7 +259,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thôngTinTàiKhoảnToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
@@ -274,5 +274,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox cbChangeTable;
         private System.Windows.Forms.TextBox txtBillDetail;
+        private System.Windows.Forms.ToolStripMenuItem thôngTinTàiKhoảnToolStripMenuItem1;
     }
 }
