@@ -8,14 +8,17 @@ C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuan
 C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
 C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
 C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fMain.resources
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csprojResolveAssemblyReference.cache
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fLogin.resources
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fMain.resources
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.Cache
-C:\Users\phuon\Documents\Phat Trien Ung Dung Windows\Do An PTUDWD\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAdmin.resources
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csprojResolveAssemblyReference.cache
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.Cache
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\MetroFramework.Design.dll
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\MetroFramework.dll
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.frmLogin.resources
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.frmMain.resources
+C:\Users\TofL\Documents\CoffeeManagement\DoAnPTUDWD\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.frmManagement.resources
